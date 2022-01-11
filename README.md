@@ -107,3 +107,48 @@ charset => element attribute
 clas    => global attribute
 id      => global attribute
 type    => element attribute
+
+### Q6 Answer
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <h1>
+            Booky Store
+        </h1>
+        <p> Welcome to Booky Store, your store to search for books reviews and
+            buy e-books or hard copy books.</p>
+        <h2>
+            History Books
+        </h2>
+        <hr>
+        <h3>
+            السيرة النبوية
+        </h3>
+        <p>
+            كتاب عن حياة الرسول - صلي الله عليه و سلم -
+        </p>
+        <hr>
+        <h3>
+            قصص الأنبياء للشيخ مصطفي العدوي
+        </h3>
+        <p>
+            كتاب عن الأنبياء الذين ضكرو في القرآن
+        </p>
+        <hr>
+        <h3>
+            قصص الصحابة
+        </h3>
+        <p>
+            قصص عن أصحاب رسول الله - صلي الله عليه و سلم -
+        </p>
+        <hr>
+        <h2>
+            Skills Books
+        </h2>
+    </body>
+</html>
+
+```
