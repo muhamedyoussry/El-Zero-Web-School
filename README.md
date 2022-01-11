@@ -1,6 +1,12 @@
 # HTML El Zero Web School
 
 - HTML is hypertext markup language used to build the structure of the web.
+- We can use single or double quotes for attribute values.
+- Paragraph element is a block element (block elements have margin, padding, border, content dimensions)
+- plain text is without any tags is inline elements
+- there is two types of attributes: global attributes and element attributes
+  - class, hidden is example of global attributes
+  - src, alt is exmaple of image element attributes
 
 ## Assignment 1
 
@@ -35,9 +41,13 @@ HTML is Hyper Text Markup Language.
 
 ### Q3 Answer
 Question 01 => No
-Question 01 => Yes
+<br/>
+Question 02 => Yes
+<br/>
 Question 03 => No
+<br/>
 Question 04 => No
+<br/>
 
 ### Q4 Answer
 
@@ -64,3 +74,36 @@ Question 04 => No
     </body>
 </html>
 ```
+
+
+## Assignment 2
+
+### Q1 Answer
+Question 01 => 
+```HTML
+<!DOCTYPE html>
+```
+Question 02 => Quirks mode
+Question 03 => No
+Question 04 => No
+Question 05 => define the headings
+
+### Q2 Answer
+The Answer is No becaue we can use single or double quotes for attribute values, Also if it is a one word we can write it without any quotations.
+
+### Q3 Answer
+No
+
+
+### Q4 Answer
+No they are all the same, browsers do not read spaces or new lines.
+
+### Q5 Answer
+title   => global attribute
+href    => element attribute
+src     => element attribute
+hidden  => global attribute
+charset => element attribute
+clas    => global attribute
+id      => global attribute
+type    => element attribute
