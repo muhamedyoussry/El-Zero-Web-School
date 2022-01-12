@@ -7,6 +7,11 @@
 - there is two types of attributes: global attributes and element attributes
   - class, hidden is example of global attributes
   - src, alt is exmaple of image element attributes
+- some formatting elements `<b> <em> <strong> <u> <i> <mark> <small> <del> <small> <ins> <sub> <sup>`
+- `<a></a>` anchor tag is an inline element not block element, it has some attribute called target with the following values:
+  -  "_blank" open a new page in a new tab
+-  also anchor tag `<a>` have attribute called title that shows a title when you hover on the link
+
 
 ## Assignment 1
 
@@ -84,16 +89,19 @@ Question 01 =>
 <!DOCTYPE html>
 ```
 Question 02 => Quirks mode
+<br/>
 Question 03 => No
+<br/>
 Question 04 => No
+<br/>
 Question 05 => define the headings
+<br/>
 
 ### Q2 Answer
 The Answer is No becaue we can use single or double quotes for attribute values, Also if it is a one word we can write it without any quotations.
 
 ### Q3 Answer
 No
-
 
 ### Q4 Answer
 No they are all the same, browsers do not read spaces or new lines.
@@ -151,4 +159,63 @@ type    => element attribute
     </body>
 </html>
 
+```
+
+## Assignment 3
+
+### Q1 Answer
+```HTML
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Mohamed Youssry Profile
+        </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="This is Mohamed Youssry profile that
+            shows his education, skills, projects and contributions" />
+    </head>
+    <body>
+        <h1> My Info </h1>
+        <p> My name is : <b>Mohamed Youssry</b></p>
+        <p> I am <strong>Aviable</strong> for hire</p>
+        <p> My hour old price is <del>10$</del> And the New price is <mark>30$</mark></p>
+        <p> visit my website from this link <a
+                href="https://www.linkedin.com/in/mohamed-youssry/"
+                target="_blank" title="Go to Youssry LinkedIn">Mohamed
+                Youssry</a></p>
+        <hr>
+        <h1>
+            Here is Some of My Clients
+        </h1>
+        <img src="https://via.placeholder.com/100/F00?text=Client 1" alt="">
+        <img src="https://via.placeholder.com/100/0F0?text=Client 2" alt="">
+        <img src="https://via.placeholder.com/100/00F?text=Client 3" alt="">
+        <hr>
+        <h1>My Skills</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript
+                <ul>
+                    <li>VueJs</li>
+                    <li>ReactJs</li>
+                    <li>Angular
+                        <ol type="a" start="1">
+                            <li>v.4.0</li>
+                            <li>v5.0</li>
+                            <li>v6.0</li>
+                            <li>v7.0</li>
+                            <li>v8.0</li>
+                        </ol>
+                    </li>
+                    <li>Sevelte</li>
+                </ul>
+            </li>
+            <li>Python</li>
+        </ul>
+    </body>
+</html>
 ```
