@@ -15,6 +15,10 @@
 -  `<hr>` is used to make a horizontal rule.
 -  div is a container for other elements.
 - a complete list of HTML entities in this [link](https://www.freeformatter.com/html-entities.html)
+- semantic elements like nav, header, section, aside, article; this solution generated for the problem of many div tags and many classes.
+- main elements in a website: header, navigation bar, aside, footer, section
+- Audio type use comething called MIME type, you can get them from MDN website.
+- 
 
 
 ## Assignment 1
@@ -282,6 +286,150 @@ type    => element attribute
                 </tr>
             </tfoot>
         </table>
+    </body>
+</html>
+```
+
+## Assignment 5
+
+### Question 1
+Semantic elements: Header, nav, main, aside, figure, footer, figcaption, section, article.
+[W3Schools semantic elements reference](https://www.w3schools.com/html/html5_semantic_elements.asp)
+
+### Question 2
+```HTML
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Page Layout</title>
+        <meta name="description" content="This is a test for a page layout" />
+    </head>
+
+    <body>
+        <header>
+            <h2>My Logo</h2>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact us</li>
+            </ul>
+        </header>
+        <hr>
+        <nav> Navigation Bar
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Settings</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Log out</li>
+            </ul>
+        </nav>
+        <hr>
+        <section style="display: flex; flex-direction: row;">
+            <section>
+                <section style="text-align: center;">
+                    <heading>Article 1</heading>
+
+                    <article>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                        Quisquam
+                        fuga alias, atque similique illo id soluta nesciunt
+                        repellat
+                        doloremque ea, quod vel ut deserunt quia aperiam fugiat
+                        sequi
+                        debitis a.
+                    </article>
+                    <img src="https://via.placeholder.com/150" alt="">
+                </section>
+                <hr>
+                <section style="text-align: center;">
+                    <heading>Article 2</heading>
+
+                    <article>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                        Quisquam
+                        fuga alias, atque similique illo id soluta nesciunt
+                        repellat
+                        doloremque ea, quod vel ut deserunt quia aperiam fugiat
+                        sequi
+                        debitis a.
+                    </article>
+                    <img src="https://via.placeholder.com/150" alt="">
+                </section>
+                <hr>
+                <section style="text-align: center;">
+                    <heading>Article 3</heading>
+
+                    <article>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit.
+                        Quisquam
+                        fuga alias, atque similique illo id soluta nesciunt
+                        repellat
+                        doloremque ea, quod vel ut deserunt quia aperiam fugiat
+                        sequi
+                        debitis a.
+                    </article>
+                    <img src="https://via.placeholder.com/150" alt="">
+                </section>
+                <hr>
+            </section>
+            <aside style="border:1px solid black; width: 30%;text-align:
+                center;">
+                Categories
+            </aside>
+        </section>
+
+        <hr>
+        <footer>
+            &COPY; Copyright 2021 | Mohamed Youssry
+        </footer>
+    </body>
+</html>
+```
+
+### Question 3 
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mohamed Youssry Profile
+        </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <audio controls autoplay loop>
+            <source src="Page002_2.mp3" type="audio/mpeg">
+            Your browser does not support this file
+        </audio>
+    </body>
+</html>
+```
+
+### Question 4
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mohamed Youssry Profile
+        </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <video controls="true" width="400" poster="">
+            <source src="stp_video.mp4" type="video/mp4">
+            video is not supported
+        </video>
     </body>
 </html>
 ```
