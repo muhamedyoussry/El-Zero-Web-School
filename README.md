@@ -18,9 +18,13 @@
 - semantic elements like nav, header, section, aside, article; this solution generated for the problem of many div tags and many classes.
 - main elements in a website: header, navigation bar, aside, footer, section
 - Audio type use comething called MIME type, you can get them from MDN website.
+- in the `input` tag we have the required attribute to validate if the input is filled.
 - 
 
 
+
+
+---
 ## Assignment 1
 
 ### Q1 Answer
@@ -87,7 +91,7 @@ Question 04 => No
     </body>
 </html>
 ```
-
+---
 
 ## Assignment 2
 
@@ -168,7 +172,7 @@ type    => element attribute
 </html>
 
 ```
-
+---
 ## Assignment 3
 
 ### Q1 Answer
@@ -228,7 +232,7 @@ type    => element attribute
 </html>
 ``` 
 
-
+---
 ## Assignment 4
 
 ### Question 1
@@ -289,7 +293,7 @@ type    => element attribute
     </body>
 </html>
 ```
-
+---
 ## Assignment 5
 
 ### Question 1
@@ -432,4 +436,48 @@ Semantic elements: Header, nav, main, aside, figure, footer, figcaption, section
         </video>
     </body>
 </html>
+```
+---
+## Assignment 6
+
+### Question 1
+```HTML
+<form action="test.py" method="POST">
+    <div>
+        <label>User Name</label>
+        <br>
+        <input name="username" type="text" required
+            placeholder="Username">
+    </div>
+    <hr>
+    <div>
+        <label for="">Password</label>
+        <br>
+        <input name="password" type="password" required
+            placeholder="Password">
+    </div>
+    <hr>
+    <div>
+        <label>Mobile Phone</label>
+        <br>
+        <input name="mobile" type="text" placeholder="+20100 123 (234)">
+    </div>
+    <hr>
+    <div>
+        <label>E-mail</label>
+        <br>
+        <input type="email" value="mo@gmail.com" required>
+    </div>
+    <hr>
+    <div>
+        <label>Subject</label>
+        <br>
+        <input type="text" placeholder="Inquiry, feedback, etc.">
+    </div>
+    <hr>
+    <div>
+        <input type="submit" value="Send Data">
+        <input type="reset" value="Empty form">
+    </div>
+</form>
 ```
