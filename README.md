@@ -19,7 +19,9 @@
 - main elements in a website: header, navigation bar, aside, footer, section
 - Audio type use comething called MIME type, you can get them from MDN website.
 - in the `input` tag we have the required attribute to validate if the input is filled.
-- 
+- `input` have many attributes like; readonly, disabled, autofocus, minlength, maxlength
+- difference between checkbox and radio button in the input type.
+- `select` element in HTML.
 
 
 
@@ -487,6 +489,114 @@ Semantic elements: Header, nav, main, aside, figure, footer, figcaption, section
                 <input type="submit" value="Send Data">
                 <input type="reset" value="Empty form">
             </div>
+        </form>
+    </body>
+</html>
+```
+
+---
+## Assignment 7
+
+### Question 1, 2, 3
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My form 2</title>
+    </head>
+    <body>
+        <form action="form2.html" method="get">
+            <div>
+                <label for="tk">Token</label>
+                <input id="tk" type="text" name="token"
+                    value="b92f1fc2fce391ad7af633723afd3055" hidden>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" value="o@o.com"
+                    readonly>
+            </div>
+            <br>
+            <div>
+                <label for="usname">Username</label>
+                <input id="usname" name="username" type="text" minlength="5"
+                    maxlength="20"
+                    required placeholder="Your Name">
+            </div>
+            <br>
+            <div>
+                <input name="skill" id="ps" value="ps" type="checkbox" checked>
+                <label for="ps">Problem Solving</label>
+            </div>
+            <br>
+            <div>
+                <input name="skill" id="lt" value="lt" type="checkbox">
+                <label for="lt">Logical Thinking</label>
+            </div>
+            <br>
+            <div>
+                <input name="skill" id="as" value="as" type="checkbox">
+                <label for="as">Advanced Search</label>
+            </div>
+            <br>
+            <div>
+                <input name="skill" id="analysis" value="analysis"
+                    type="checkbox">
+                <label for="analysis">Analysis</label>
+            </div>
+            <br>
+            <div>
+                <input name="skill" id="planing" value="planning"
+                    type="checkbox">
+                <label for="planing">Planing</label>
+            </div>
+            <br>
+            <div>
+                <input name="job" type="radio" id="fed" checked>
+                <label for="fed">Front-End Developer</label>
+            </div>
+            <br>
+            <div>
+                <input name="job" type="radio" id="bed">
+                <label for="bed">Back-End Developer</label>
+            </div>
+            <br>
+            <div>
+                <input name="job" type="radio" id="pm">
+                <label for="pm">Project Manager</label>
+            </div>
+            <br>
+            <div>
+                <input name="job" type="radio" id="ba">
+                <label for="ba">Business Analyst</label>
+            </div>
+            <br>
+            <div>
+                <input name="job" type="radio" id="sm">
+                <label for="sm">Scrum Master</label>
+            </div>
+            <br>
+            <label for="book">Choose Book: </label>
+            <select name="job" id="book">
+                <optgroup label="PHP">
+                    <option value="php1" selected>v5.0</option>
+                    <option value="php2">v7.0</option>
+                    <option value="php3">v8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option value="php1">v2.0</option>
+                    <option value="php2">v3.0</option>
+                    <option value="php3">v3.9</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="brief" id="brief" cols="30" rows="10"
+                placeholder="Write Here What You to learn from programming"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Empty">
         </form>
     </body>
 </html>
