@@ -1,6 +1,6 @@
-<p align="center"><h1>Web Development Learning Journey</h1></p>
+<h1 align="center">Web Development Learning Journey</h1>
 
-<p align="center"><h1>HTML</h1></p>
+<h1 align="center">HTML</h1>
 
 I will learn HTML from FWD Egypt Program from Udacity, El-Zero Web School, and Michigan University from Coursera.
 

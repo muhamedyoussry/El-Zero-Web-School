@@ -1,4 +1,4 @@
-<p align="center"><h1>HTML El Zero Web School</h1></p>
+<h1 align="center">HTML El Zero Web School</h1>
 
 
 ## My Notes
@@ -28,7 +28,7 @@
 
 
 
-<p align="center"><h2>Assignment 1</h2></p>
+<h2 align="center">Assignment 1</h2>
 
 ### Q1 Answer
 HTML is Hyper Text Markup Language.
@@ -96,7 +96,7 @@ Question 04 => No
 ```
 
 
-<p align="center"><h2>Assignment 2</h2></p>
+<h2 align="center">Assignment 2</h2>
 
 ### Q1 Answer
 Question 01 => 
@@ -176,7 +176,7 @@ type    => element attribute
 
 ```
 
-<p align="center"><h2>Assignment 3</h2></p>
+<h2 align="center">Assignment 3</h2>
 
 ### Q1 Answer
 ```HTML
@@ -236,7 +236,7 @@ type    => element attribute
 ``` 
 
 
-<p align="center"><h2>Assignment 4</h2></p>
+<h2 align="center">Assignment 4</h2>
 
 ### Question 1
 
@@ -297,7 +297,7 @@ type    => element attribute
 </html>
 ```
 
-<p align="center"><h2>Assignment 5</h2></p>
+<h2 align="center">Assignment 5</h2>
 
 ### Question 1
 Semantic elements: Header, nav, main, aside, figure, footer, figcaption, section, article.
@@ -441,7 +441,7 @@ Semantic elements: Header, nav, main, aside, figure, footer, figcaption, section
 </html>
 ```
 
-<p align="center"><h2>Assignment 6</h2></p>
+<h2 align="center">Assignment 6</h2>
 
 ### Question 1
 ```HTML

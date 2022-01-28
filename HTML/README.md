@@ -1,5 +1,8 @@
-<p align="center"><h1>Learning HTML</h1></p>
+<h1 align="center">Learning HTML</h1>
 
+
+
+<h2 align="center">El-Zero Web School</h1>
 
 El-Zero Web School YouTube Channel; [HTML Playlist](https://www.youtube.com/watch?v=6QAELgirvjslist=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji). My notes and assignments solutions are in this [repo](El-Zero%20Web%20School).
 
