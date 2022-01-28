@@ -24,8 +24,8 @@
 - `input` have many attributes like; readonly, disabled, autofocus, minlength, maxlength
 - difference between checkbox and radio button in the input type.
 - `select` element in HTML.
-
-
+- `datalist` is a list element like the `select` element but in the `datalist` you can search by typing letters in the list.
+-  
 
 
 <h2 align="center">Assignment 1</h2>
@@ -599,6 +599,75 @@ Semantic elements: Header, nav, main, aside, figure, footer, figcaption, section
             <input type="submit" value="Send">
             <input type="reset" value="Empty">
         </form>
+    </body>
+</html>
+```
+
+<h2 align="center">Assignment 8</h2>
+
+### Question 1, 2
+
+```HTML
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>File HTMl</title>
+    </head>
+    <body>
+        <form action="file.html" method="get">
+            <label for="">Search</label>
+            <br> <br>
+            <input type="search" placeholder="Enter A Search Word">
+
+            <br> <br>
+            <label for="">Upload</label>
+            <br> <br>
+            <input type="file">
+            <br> <br>
+
+            <label for="">URL</label>
+            <br><br>
+            <input type="url">
+            <br> <br>
+            
+            <label for="">Date</label>
+            <br><br>
+            <input type="date">
+            <br> <br>
+
+            <label for="">Month</label>
+            <br><br>
+            <input type="month">
+            <br> <br>
+
+            <input type="reset" value="Empty">
+            <input type="submit" value="Save">
+        </form>
+    </body>
+</html>
+
+```
+
+### Question 3, 4 
+
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File HTMl</title>
+    </head>
+    <body>
+        <pre>
+            <p>
+                Hello Line One
+                Hello Line Two
+                Hello Line Three
+                    Hello Line Four
+            </p>
+        </pre>
+        <iframe src="https://elzero.org/" width="100%" height="500px"></iframe>
     </body>
 </html>
 ```
