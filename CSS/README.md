@@ -4,7 +4,7 @@
 
 <h2 align="center">El-Zero Web School</h1>
 
-El-Zero Web School YouTube Channel; [HTML Playlist](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe). And this is El-zero CSS [assignments](https://elzero.org/category/assignments/css-assignments/)
+El-Zero Web School YouTube Channel; [CSS Playlist](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe). And this is El-zero CSS [assignments](https://elzero.org/category/assignments/css-assignments/)
 
 My notes and assignments solutions are in this [repo](./El-Zero%20Web%20School).
 
