@@ -1,0 +1,11 @@
+/* All paragraphas are green  */
+
+p {
+    color: green;
+    font-size: 30px;
+}
+
+.special {
+    color: red;
+}
+
