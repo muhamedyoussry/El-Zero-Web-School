@@ -6,5 +6,6 @@ p {
 }
 
 .special {
-    color: red;
+    color: black;
+    background-color: rgba(16, 170, 124, 0.829);
 }

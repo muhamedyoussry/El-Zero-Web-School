@@ -99,7 +99,7 @@ p {
 .USERNAME {
 }
 
-/* Good */
+/* Bad */
 .UserName {
 }
 
@@ -107,7 +107,7 @@ p {
 .user-name {
 }
 
-/* Good */
+/* Bad */
 .userName {
 }
 
