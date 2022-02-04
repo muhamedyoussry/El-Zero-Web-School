@@ -1,0 +1,18 @@
+.navigation-bar {
+    background-color: rgb(146, 146, 146);
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 0.5em;
+}
+
+.navigation-bar #navigation-bar-logo {
+    width: 100px;
+    height: 100px;
+}
