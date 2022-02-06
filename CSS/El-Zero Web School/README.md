@@ -9,7 +9,8 @@
   - ixternal style - inside an external CSS file
   - internal style - inside the HTML file
   - inline style - inside the HTML elemen
-- 
+- use `background-size` to make the image take the full element or the full screen.
+- `padding` property for the 4 directions: top right bottom left
 
 <h2 align="center">Assignment 1</h2>
 
@@ -115,3 +116,5 @@ p {
 .usernameprofile {
 }
 ```
+
+<h2 align="center">Assignment 2</h2>

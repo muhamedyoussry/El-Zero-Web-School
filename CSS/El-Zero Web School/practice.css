@@ -1,11 +1,5 @@
-/* All paragraphas are green  */
-
-p {
-    color: green;
-    font-size: 30px;
-}
-
-.special {
-    color: black;
-    background-color: rgba(16, 170, 124, 0.829);
+div {
+    background-color: gray;
+    padding-bottom: 10px;
+    
 }

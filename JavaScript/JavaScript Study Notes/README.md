@@ -11,7 +11,7 @@
 
 - Defining a number in JavaScript is actually pretty simple. The **Number** data type includes any positive or negative integer, as well as decimals.
   - You can also perform calculations with numbers pretty easily.
-  - إou can compare two numbers to see if one’s greater than, less than, or equal to the other.
+  - You can compare two numbers to see if one’s greater than, less than, or equal to the other.
 - You can use **comments** to help explain your code and make things clearer.
 - **Strings** are number of any characters enclosed by single or double quotations.
   - **Concatenating** two strings together is mean to add strings together.
