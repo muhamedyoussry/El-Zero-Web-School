@@ -21,3 +21,28 @@
 ``` js
 var variable_name = value; // creating variable iwht snak_case
 ```
+- we can access the array character by entering the index inside a square brackets `name[0]`.
+- we can escape special characters using backslash `\` before the target character.
+- we can compare strings using comparios operators.
+- you can use the function `.charCodeAt(string_index)` to return the ASCII value of a character.
+- A boolean variable can take either of two values - `true` or `false`.
+- JavaScript is known as a loosely typed language. Basically, this means that when you’re writing JavaScript code, *you do not need to specify data types*.
+- `number.toFixed(decimal_points)` is used to round a number to the `decimal_points`.
+
+<h2 align="center">Conditionals</h2>
+
+- if...else statemetns, else if statement.
+
+``` js
+var weather = "sunny";
+
+if (weather === "snow") {
+  console.log("Bring a coat.");
+} else if (weather === "rain") {
+  console.log("Bring a rain jacket.");
+} else {
+  console.log("Wear what you have on.");
+}
+```
+- logical operators: AND, OR, NOT.
+- 
