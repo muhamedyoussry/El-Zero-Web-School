@@ -149,4 +149,69 @@ emotions ("happy", function(num) {
 
 <h2 align="center">Arrays</h2>
 
+- an Array is a data structure that we can use to store multiple values in one container.
+- You can store any data types in an array, even an array in an array to create a nested array!
 - 
+```js
+// write nested arrays in single lines to maek it easy to read them
+var arraysInArrays = [
+  [1, 2, 3], 
+  ["Julia", "James"], 
+  [true, false, true, false]
+];
+```
+- index is the location or the poisition of the array element and starts from 0.
+- built-in properties and methods in array:
+  - *property*: length
+  - *methods*: push, pop, splice,shift, unshift, join, toUpperCase [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- the forEach() loop method iterates over the array without the need of an explicitly defined index.
+
+```js
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  console.log(donut);
+});
+```
+- creating a new array from an existing array is simple with the powerful `map()` method.
+```js
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+var improvedDonuts = donuts.map(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  return donut;
+});
+```
+- 2d Array
+```js
+for (var row = 0; row < donutBox.length; row++) {
+  // here, donutBox[row].length refers to the length of the donut array currently being looped over
+  for (var column = 0; column < donutBox[row].length; column++) {
+    console.log(donutBox[row][column]);
+  }
+}
+```
+<h2 align="center">Objects</h2>
+
+- objects wrap/group data members and data functions in one user defined data type. (Encabsulation)
+```js
+// the entire object is wrapped insed {...}
+var sister = {
+  name: "Sarah", // key: value
+  age: 23, // don't forget the comma after each decleration except the last line
+  parents: [ "alice", "andy" ],
+  siblings: ["julia"],
+  favoriteColor: "purple",
+  pets: true
+};
+```
+- you can access object data members by two ways:
+  - *bracket notation* `sister["parents"]`
+  - *dot notation* sister.parents
+- naming conventions in objects:
+  - do not use quotation marks to name the property (data Member)
+  - do not start your property name with number
+  - do not use hiphens or spaces in your property names
