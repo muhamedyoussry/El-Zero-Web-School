@@ -215,3 +215,107 @@ var sister = {
   - do not use quotation marks to name the property (data Member)
   - do not start your property name with number
   - do not use hiphens or spaces in your property names
+
+
+<h2 align="center">ES6: the future of JavaScript</h2>
+
+- Hoisting is a result of how JavaScript is interpreted by your browser. Essentially, before any JavaScript code is executed, all variables declared with `var` are "hoisted", which means they're raised to the top of the function scope.
+- Variables declared with `let` and `const` eliminate the issue of hoisting because they’re scoped to the block, not to the function.
+  - Variables declared with `let` can be reassigned, but can’t be redeclared in the same scope.
+  - Variables declared with `const` must be assigned an initial value, but can’t be redeclared in the same scope, and can’t be reassigned.
+- The big question is when should you use let and const? The general rule of thumb is as follows:
+  - use `let` when you plan to reassign new values to a variable, and
+  - use `const` when you don’t plan on reassigning new values to a variable.
+- we will not need to use `var` anymore, because it will be a bad practise.
+- **Template literals** are essentially string literals that include embedded expressions.
+
+```js
+let message = `${student.name} please see ${teacher.name} in ${teacher.room} to pick up your report card.`;
+```
+- Here’s where *template literals* really shine. In the code animation above, the quotes and string concatenation operator have been dropped, as well as the newline characters `\n`. That's because template literals also preserve newlines as part of the string!
+
+```js
+let message = `${student.name}
+please see ${teacher.name} in ${teacher.room} to pick up your report card.
+Thank You`;
+```
+- **Destructuring** borrows inspiration from languages like Perl and Python by allowing you to specify the elements you want to extract from an array or object on the left side of an assignment.
+  - Destructuring from an array.
+
+```js
+const point = [10, 25, -34];
+
+const [x, y, z] = point;
+
+console.log(x, y, z);
+```
+- Destructuring from an object. you can't access methods
+
+```js
+const gemstone = {
+  type: 'quartz',
+  color: 'rose',
+  carat: 21.29
+};
+
+const {type, color, carat} = gemstone;
+
+console.log(type, color, carat);
+```
+
+- **Object literal shorthand**
+```js
+let type = 'quartz';
+let color = 'rose';
+let carat = 21.29;
+
+const gemstone = {
+  type, // without reduntant `type: type,`
+  color,
+  carat,
+  calculateWorth:() { // without the word function
+    // will calculate worth of gemstone based on type, color, and carat
+  }
+};
+```
+
+- the for loop, for..in loop, and the for..of loop.
+  - the for loop problems are indexing and exit condition; too many details
+  - the for..in loop problem is indexing
+  - the for..of loop is the easiest.
+
+```js
+// the for loop
+const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let i = 0; i < digits.length; i++) {
+  console.log(digits[i]);
+}
+
+// the for.. in loop
+const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (const index in digits) {
+  console.log(digits[index]);
+}
+
+// the for..of loop
+const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (const digit of digits) {
+  console.log(digit);
+}
+```
+- The **spread operator**, written with three consecutive dots `( ... )`, is new in ES6 and gives you the ability to expand, or spread, iterable objects into multiple elements.
+```js
+const books = ["Don Quixote", "The Hobbit", "Alice in Wonderland", "Tale of Two Cities"];
+console.log(...books);
+// result: Don Quixote The Hobbit Alice in Wonderland Tale of Two Cities
+```
+- you can use the spread operator to concatinate number of arrays in an iterable way.
+
+```js
+const produce = [...Arr1, ... Arr2];
+```
+
+- The **rest parameter**, also written with three consecutive dots `( ... )`, allows you to represent an indefinite number of elements as an array.
