@@ -319,3 +319,44 @@ const produce = [...Arr1, ... Arr2];
 ```
 
 - The **rest parameter**, also written with three consecutive dots `( ... )`, allows you to represent an indefinite number of elements as an array.
+```js
+const order = [20.17, 18.67, 1.50, "cheese", "eggs", "milk", "bread"];
+const [total, subtotal, tax, ...items] = order;
+console.log(total, subtotal, tax, items);
+```
+- one of the use cases for the **rest parameter** is when you’re working with variadic functions. Variadic functions are functions that take an indefinite number of arguments.
+```js
+function sum(...nums) {
+  let total = 0;  
+  for(const num of nums) {
+    total += num;
+  }
+  return total;
+}
+```
+
+```js
+/*
+ * Programming Quiz: Using the Rest Parameter (1-5)
+ */
+
+// your code goes here
+
+function average(...nums) {
+    let avg = 0;
+    let sum = 0;
+    for (const num of nums){
+        sum = sum + num;
+    }
+    if (sum === 0){
+        return avg;
+    }
+    avg = sum/nums.length;
+    return avg;
+}
+
+console.log(average(2, 6));
+console.log(average(2, 3, 3, 5, 7, 10));
+console.log(average(7, 1432, 12, 13, 100));
+console.log(average());
+```
