@@ -371,6 +371,25 @@ console.log(average());
 - The DOM is:
 - constructed from the browser
 - is globally accessible by JavaScript code using the document object
+- HTML document object methods
+  - we can select page element by id using the document object method `document.getElementById('footer');`
+  - we can select page element by class using the document object method `document.getElementsByClassName();` - take care of the `s`
+  - we can select page element by its tag using the document object method `document.getElementsByTagName('p');` - take care of the `s`
+  - they all return a live HTMLCollection of found elements.
+- We can use the `.querySelector()` method to select elements just like we do with CSS. We use the `.querySelector()` method and pass it a string that's just like a CSS selector. But, it only returns one element.
 
-- we can select page element by id using the document object method `document.getElementById('footer');`
-- 
+```js
+// find and return the element with an ID of "header"
+document.querySelector('#header');
+
+// find and return the first element with the class "header"
+document.querySelector('.header');
+
+// find and return the first <header> element
+document.querySelector('header');
+```
+- we can use `.querySelectorAll()` to return multiple elements.
+
+<h3 align="center">Creating Content with JavaScript</h3>
+
+
