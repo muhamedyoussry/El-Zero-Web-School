@@ -392,4 +392,28 @@ document.querySelector('header');
 
 <h3 align="center">Creating Content with JavaScript</h3>
 
+- we have multiple ways to change the HTML content:
+  - `.innerHTML`
+  - `.textContent`
+  - `.innerText`
+  - We saw that to set HTML content for an element, out of the three properties list above, we can only use .innerHTML. Using .textContent will erroneously include the HTML characters as plain text inside the element. we also looked at the difference between .textContent and .innerText. .textContent completely ignores any CSS styling and returns all of the element's HTML just as it's listed in the HTML. On the other hand, the .innerText property will take CSS styling into consideration and will return the text that is visibly rendered on the page.
 
+- we have multiple ways to add a new content to the HTML page:
+  - `.createElement()` to create new elements
+  - `.appendChild()` to add a child element to a parent element as its last child
+  - `.createTextNode()` to create a text node
+  - `.insertAdjacentHTML()` to put HTML text anywhere around an element
+  - Some important things to note are:
+    - if an element already exists in the DOM and this element is passed to `.appendChild()`, the `.appendChild()` method will move it rather than duplicating it
+    - an element's `.textContent` property is used more often than creating a text node with the `.createTextNode()` method
+    - the `.insertAdjacentHTML()` method's second argument has to be text, you can't pass an element
+
+- we have multiple ways to remove a content from the HTML page:
+- `.removeChild()`
+- `.remove()`
+  - The difference is that with `.removeChild()` must be called on the parent of the element being removed and must be passed the child to be removed, while `.remove()` can be called directly on the element to delete.
+  - We also learned about the following helpful properties:
+    - `.firstChild`
+    - `.firstElementChild`
+    - `.parentElement`
+    - The difference between `.firstChild` and `.firstElementChild`, is that `.firstElementChild` will always return the first element, while `.firstChild` might return whitespace (if there is any) to preserve the formatting of the underlying HTML source code.
