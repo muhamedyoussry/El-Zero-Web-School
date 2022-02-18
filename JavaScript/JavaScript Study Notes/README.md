@@ -360,3 +360,17 @@ console.log(average(2, 3, 3, 5, 7, 10));
 console.log(average(7, 1432, 12, 13, 100));
 console.log(average());
 ```
+
+<h2 align="center">JavaScript & the DOM </h2>
+
+<h3 align="center">The Document Object Model</h3>
+
+- The DOM stands for "Document Object Model" and is a tree-like structure that is a representation of the HTML document, the relationship between elements, and contains the content and properties of the elements.
+- The DOM is not:
+  - part of the JavaScript language
+- The DOM is:
+- constructed from the browser
+- is globally accessible by JavaScript code using the document object
+
+- we can select page element by id using the document object method `document.getElementById('footer');`
+- 
